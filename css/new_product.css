@@ -1,0 +1,240 @@
+.classify-goods .info p{
+	margin-top: 10px;
+}
+.classify{
+	height: 1000px;
+	width: 100%;
+}
+.classify-nav{
+	margin-top: -6px;
+	float: left;
+	width: 1226px;
+	height: 40px;
+	background-color: #E0E0E0;
+}
+.classify-navfixed{
+	position: fixed;
+	top: 0px;
+}
+.classify-nav ul{
+	height: 40px;
+	line-height: 40px;
+	color: #616161;
+}
+
+.classify-nav li{
+	cursor: pointer;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100px;
+}
+
+#classify-li-end {
+	float: right;
+	display: block;
+	color: #616161;
+	text-align: center;
+	width: 100px;
+}
+.classify-nav  .active{
+	background-color: #F1F1F1;
+	color: #D4237B;
+}
+.classify-goods li{
+	float: left;
+	width: 230px;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin: 30px;
+}
+.classify-goods li:hover{
+	-webkit-box-shadow: #ccc 10px 10px 10px;
+	-moz-box-shadow: #ccc 10px 10px 10px;
+	box-shadow: #ccc 10px 10px 10px;
+}
+.classify-goods .bg{
+	width: 230px;
+	height: 300px;
+}
+.classify-goods .bg img{
+	height: 300px;
+	
+}
+.classify-goods .info{
+	width: 210px;
+	height: 80px;
+	padding: 8px;
+	line-height: 10px;
+}
+.classify-goods .info i{
+	margin-top: -14px;
+	float: right;
+	cursor: pointer;
+}
+
+.classify-goods .info  i:hover{
+	color: #D4237B;
+}
+.classify-goods .info  i:visited{
+	color: #D4237B;
+}
+.classify-goods .info .series{
+	margin-top: -10px;
+	font-size: 12px;
+	color: #616161;
+	height: 15px;
+	line-height: 15px;
+	/* 文字超出部分显示为... */
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.classify-goods .info .title{
+	font-size: 14px;
+	line-height: 14px;
+	color: #424242;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.classify-goods .info .price{
+	font-size: 16px;
+	line-height: 16px;
+	color: #D4237B;
+}
+ .browse{
+	font-size: 12px;
+	margin: 100px auto;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #424242;
+}
+.browse a{
+	color: #424242;
+}
+.browse a:hover{
+	color: #D4237B;
+}
+.recommend .goods{
+	margin: 100px auto;
+	width: 1000px;
+	height: 430px;
+}
+.recommend .goods li{
+	margin: 14px;
+	float: left;
+	width: 300px;
+	height: 400px;
+}
+.recommend .goods .pic img{
+	width: 300px;
+}
+.recommend .goods .information .style{
+	padding-left: 20px;
+	font-size: 15px;
+	color: #424242;
+}
+.recommend .goods .information .buy{
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 15px;
+	color: #616161;
+	text-decoration: underline;
+}
+.recommend .goods .information .buy:hover{
+	color: #B0B0B0;
+}
+.new_recommend{
+	margin-top: -100px;
+	width: 100%;
+	height: 130px;
+	background-color: #f1f1f1;
+}
+.new_recommend .title{
+	margin-left: 105px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 17px;
+}
+.new_recommend .series{
+	margin-left: 100px;
+	width: 1000px;
+}
+.new_recommend .series li{
+	float: left;
+	height: 20px;
+	width: 200px;
+	margin: 5px;
+}
+.new_recommend .series a{
+	color: #616161;
+}
+.new_recommend .series a:hover{
+	color: #CCCCCC;
+}
+.classify .classify-items{
+	height: 180px;
+	width: 1000px;
+	margin-top: 33px;
+	background-color: #F1F1F1;
+	/* position: absolute; */
+}
+.classify-items ul{
+	display: none;
+}
+.classify-items .active{
+	display: block;
+}
+.classify .classify-items .check{
+	height: 150px;
+	width: 900px;
+	margin: 10px;
+}
+.classify .classify-items li{
+	margin: 5px;
+	float: left;
+	width: 200px;
+	height: 20px;
+	color: #616161;
+}
+.classify .classify-items input[type='checkbox']{
+	margin: 10px;
+	vertical-align: middle;
+	margin-top: -2px;
+	margin-bottom: 1px;
+	width: 20px;
+	height:20px;
+}
+ .classify-items .chooseall {
+	color: #616161;
+	margin-top: -120px;
+	margin-left: 200px;
+	padding: 100px;
+}
+
+.classify .classify-items .but{
+	margin: -140px 550px;
+	display: block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #E8E8EA;
+	background-color: #616161;
+	outline: #616161;
+}
+.iconfont-arrow{
+	color: #CCCCCC;
+	font-size: 40px;
+	cursor: pointer;
+}
+/* .iconfont-ai visited{
+	color: #D4237B;
+} */

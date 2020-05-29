@@ -1,0 +1,148 @@
+.bbody{
+	height: 800px;
+	width: 80%;
+	margin: 0px auto;
+	background-color: #F1F1F1;
+}
+.bbody p{
+	color: #A29DB0;
+}
+.bbody p a{
+	text-decoration: none;
+	color: #A29DB0;
+}
+.bbody .menuboder{
+	margin: 20px;
+	height: 730px;
+	width: 15%;
+	float: left;
+	background-color: #FFFFFF;
+}
+.bbody .menuboder .menu{
+	margin: 20px;
+	height: 730px;
+	width: 70%;
+	margin: 0px auto;
+}
+.bbody .menuboder .menu #active{
+	color: #FF8C00;
+}
+.bbody .menu h3{
+	margin-top: 10px;
+	color: #616161;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.bbody .menu ul{
+	margin-top: 10px;
+}
+.bbody .menu li{
+	
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.bbody .menu a{
+	text-decoration: none;
+	color: #616161;
+}
+.bbody .menu a:hover{
+	color: #B0B0B0;
+}
+.bbody .personal{
+	margin: 20px;
+	float: right;
+	height: 730px;
+	width: 75%;
+	background-color: #FFFFFF;
+}
+.bbody .personal .per{
+	height: 230px;
+	width: 90%;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px auto;
+}
+
+
+.bbody .personal .per .heagimg{
+	margin-top: 30px;
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+.bbody .personal .per .heagimg .head{
+	margin: 20px;
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-image: url(../img/contact/head.jpg);
+	border-radius: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.bbody .personal .per .heagimg .name{
+	margin-top: 40px;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.bbody .personal .per .heagimg .name span{
+	color: #616161;
+	font-size: 20px;
+}
+.bbody .personal .per .heagimg .name #wel{
+	font-size: 13px;
+	color: #999999;
+}
+.bbody .personal .per .heagimg .name a{
+	text-decoration: none;
+	color: darkorange;
+	font-size: 14px;
+}
+.bbody .personal .per .info{
+	margin: 70px;
+	width: 200px;
+	height: 100px;
+	float: left;
+	line-height: 30px;
+	color: #999999;
+}
+.bbody .personal .per .info span{
+	color: darkorange;
+}
+.bbody .personal .log{
+	width: 90%;
+	height: 450px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.bbody .personal .log .item{
+	margin:10px;
+	width: 340px;
+	height: 140px;
+	float: left;
+}
+.bbody .personal .log .item img{
+	margin: 30px;
+	float: left;
+}
+.bbody .personal .log .item .inf{
+	margin-top: 50px;
+	color: #616161;
+	font-size: 15px;
+	line-height: 30px;
+}
+.bbody .personal .log .item a{
+	text-decoration: none;
+	color: #999999;
+	font-size: 13px;
+}
+.bbody .personal .log .item span{
+	color: #FF8C00;
+}
+.bbody .personal .log .item a:hover{
+	color: #FF8C00;
+}

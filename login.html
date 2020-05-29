@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录-注册</title>
+		<link rel="shortcut icon" href="favicon.jpg"/>
+		<link rel="stylesheet" href="./css/iconfont.css">
+		<link rel="stylesheet" href="./css/login.css">
+	</head>
+	<body>
+		<div id="log"></div>
+		<div id="slide">
+			<ul id="photos">
+				<li><img src="img/login/1.webp" style="width: 450px; height: 550px;"/></li>
+				<li><img src="img/login/2.webp" style="width: 450px; height: 550px;"/></li>
+				<li><img src="img/login/3.webp" style="width: 450px; height: 550px;"/></li>
+			</ul>
+		</div>
+		<div id="form">
+			<div class="top-header">
+				<div class="bar"><a href="">帮助中心</a></div>
+				<div class="bar"><a href="">意见反馈<i class="iconfont">&#xe7b2;</i></a></div>
+				<div class="bar"><a href="">简体中文<i class="iconfont">&#xe7b2;</i></a></div>
+				<div class="bar"><a href="">商城首页</a></div>
+			</div>
+			<div class="login">
+				<div class="wel-login">欢迎登录XX商城</div>
+				<!-- 提交到首页 -->
+				<form action="new_product.html">
+					<label for="user">用户名：</label><input type="text" name="username" class="box" id="user"/>
+					</br>
+					<label for="pass">&nbsp;&nbsp;密码：&nbsp;</label><input type="password" name="userpassword" class="box" id="pass"/>
+					</br>
+					<div id="qq">通过QQ登录<a href=""><img src="img/login/account_qq.gif" /></a></div>
+					</br>
+					<input type="submit" value="登录" class="login-btn"/>
+					<a href="" id="forget">忘记密码？</a>
+					<p class="seckill-notice">有任何疑问请点击<a href="">帮助中心</a></p>
+				</form>
+			</div>
+			<div class="register">
+				<div class="wel-login">注册新用户</div>
+				<form>
+					<label for="adr">请填写你的邮箱地址：</label><input type="email" name="username" class="box" id="adr"/>
+					</br>
+					<p class="notice">请填写有效的Email地址作为下次登录的用户名，同时我们也会给这个地址发送您的帐户信息、订单通知等</p>
+					<label for="adr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请设定你的密码：</label><input type="password" name="userpassword" class="box" id="pass" maxlength="12"/></br>
+					<p class="notice">密码请设为小于12位字母或数字</p>
+					<label for="adr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请再次输入密码：</label><input type="password" name="spassword" class="box" id="secondpass" maxlength="12"/></br>
+					</br>
+					<div id="yanzheng">  
+					        <label for="input">请输入验证码：</label><input type = "text" id = "input" value="" />  
+					        <input type = "button" id="code" onclick="createCode()"/>  
+					        <input type = "button" value = "验证" onclick = "validate()"/>  
+					</div> 
+					<input type="radio" /><i id="agree">我已阅读并同意相关<a href="">服务条款</a>和<a href="">隐私政策</a></i>
+					</br>
+					<input type="submit" value="立即注册" class="register-btn"/>
+					<p class="copyright">Copyright © 2020 vjia.com All Rights Reserved</p>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="./js/login.js"></script>
+</html>
